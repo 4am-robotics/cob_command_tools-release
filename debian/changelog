@@ -1,0 +1,31 @@
+ros-indigo-service-tools (0.6.9-0trusty) trusty; urgency=high
+
+  * update maintainer
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-indigo-service-tools (0.6.8-0trusty) trusty; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-indigo-service-tools (0.6.7-0trusty) trusty; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #197 <https://github.com/ipa320/cob_command_tools/issues/197> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-indigo-service-tools (0.6.6-0trusty) trusty; urgency=high
+
+  * implemented service_relay
+  * Contributors: Mathias Lüdtke
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 16 Jul 2017 22:00:00 -0000
+
+
