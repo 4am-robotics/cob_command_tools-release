@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-helper-tools
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-helper-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cob-msgs, ros-indigo-cob-script-server, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: Helper scripts for Care-O-bot
