@@ -1,29 +1,22 @@
-# generic_throttle
+cob_command_tools
+===========
 
-generic_throttle is package offering a Python implementation of a throttle for topics.
+## ROS Distro Support
 
-The package is composed of
-- `GenericThrottle`: class implementing the throttle
-- `generic_throttle_node`: ROS node wrapping around an instance of `GenericThrottle`
+|         | Indigo | Jade | Kinetic |
+|:-------:|:------:|:----:|:-------:|
+| Branch  | [`indigo_dev`](https://github.com/ipa320/cob_command_tools/tree/indigo_dev) | [`indigo_dev`](https://github.com/ipa320/cob_command_tools/tree/indigo_dev) | [`indigo_dev`](https://github.com/ipa320/cob_command_tools/tree/indigo_dev) |
+| Status  |  supported | not supported |  supported |
+| Version | [version](http://repositories.ros.org/status_page/ros_indigo_default.html?q=cob_command_tools) | [version](http://repositories.ros.org/status_page/ros_jade_default.html?q=cob_command_tools) | [version](http://repositories.ros.org/status_page/ros_kinetic_default.html?q=cob_command_tools) |
 
-The parameters are set as privat parameters of the node. An example .yaml file could look like this:
-```
-topics:               # List of topics to be throttled
-  - /topic1: {latched: False, lazy: True, topic_rate: 1.0}
-  - /topic2: {latched: True, lazy: False, topic_rate: 20.0}
-  - /image_topic: {latched: False, lazy: True, topic_rate: 20.0, resolution_factor: 0.5}
-```
-For each topic, 3 parameters must be specified:
-- `latched`: if `True`, the publisher of the throttled topic acts as latched (see  http://docs.ros.org/api/rospy/html/rospy.topics.Publisher-class.html)
-- `lazy`: if `True`, the publisher of the throttled topics will check if the number of subscribers and if there are no, it will not publish the message
-- `topic_rate`: desired rate (in Hz) for the throttled topic.
+## Travis - Continuous Integration
 
-Optional parameter:
-- `resolution_factor`: it is meant for topics of type sensor_msgs/Image. If available, the throttle will reduce the resolution of the image by the specified factor. For example, if `resolution_factor: 0.5`, width and height will be halved.
+Status: [![Build Status](https://travis-ci.org/ipa320/cob_command_tools.svg?branch=indigo_dev)](https://travis-ci.org/ipa320/cob_command_tools)
 
-The throttle will publish on topics with name `/topic_throttled` (it appends `_throttled` to the original name).
-When running an instance of `generic_throttle_node`, you must define the throttle namespace to let the node discover the required parameters. An example from .launch file:
-```
-<node pkg="generic_throttle" type="generic_throttle_node.py" name="throttle" ns="test_throttle" />
-```
+## ROS Buildfarm
 
+|         | Indigo Source | Indigo Debian | Jade Source | Jade Debian |  Kinetic Source  |  Kinetic Debian |
+|:-------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
+| cob_command_tools | [![not released](http://build.ros.org/buildStatus/icon?job=Isrc_uT__cob_command_tools__ubuntu_trusty__source)](http://build.ros.org/view/Isrc_uT/job/Isrc_uT__cob_command_tools__ubuntu_trusty__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Ibin_uT64__cob_command_tools__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Ibin_uT64/job/Ibin_uT64__cob_command_tools__ubuntu_trusty_amd64__binary/) | [![not released](http://build.ros.org/buildStatus/icon?job=Jsrc_uT__cob_command_tools__ubuntu_trusty__source)](http://build.ros.org/view/Jsrc_uT/job/Jsrc_uT__cob_command_tools__ubuntu_trusty__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Jbin_uT64__cob_command_tools__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Jbin_uT64/job/Jbin_uT64__cob_command_tools__ubuntu_trusty_amd64__binary/) | [![not released](http://build.ros.org/buildStatus/icon?job=Ksrc_uX__cob_command_tools__ubuntu_xenial__source)](http://build.ros.org/view/Ksrc_uX/job/Ksrc_uX__cob_command_tools__ubuntu_xenial__source/) | [![not released](http://build.ros.org/buildStatus/icon?job=Kbin_uX64__cob_command_tools__ubuntu_xenial_amd64__binary)](http://build.ros.org/view/Kbin_uX64/job/Kbin_uX64__cob_command_tools__ubuntu_xenial_amd64__binary/) |
+
+Installation instructions and tutorials can be found at http://wiki.ros.org/care-o-bot.
