@@ -1,3 +1,36 @@
+## cob_command_tools (kinetic) - 0.6.9-0
+
+The packages in the `cob_command_tools` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_command_tools --track kinetic --rosdistro kinetic` on `Tue, 24 Jul 2018 07:12:36 -0000`
+
+These packages were released:
+- `cob_command_gui`
+- `cob_command_tools`
+- `cob_dashboard`
+- `cob_helper_tools`
+- `cob_interactive_teleop`
+- `cob_monitoring`
+- `cob_script_server`
+- `cob_teleop`
+- `generic_throttle`
+- `service_tools`
+
+Version of package(s) in repository `cob_command_tools`:
+
+- upstream repository: https://github.com/ipa320/cob_command_tools.git
+- release repository: https://github.com/ipa320/cob_command_tools-release.git
+- rosdistro version: `0.6.7-0`
+- old version: `0.6.7-0`
+- new version: `0.6.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.6`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## cob_command_tools (indigo) - 0.6.9-0
 
 The packages in the `cob_command_tools` repository were released into the `indigo` distro by running `/usr/bin/bloom-release cob_command_tools --track indigo --rosdistro indigo` on `Tue, 24 Jul 2018 07:08:25 -0000`
