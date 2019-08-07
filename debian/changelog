@@ -1,0 +1,88 @@
+ros-kinetic-generic-throttle (0.6.14-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.13-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 18 Jul 2019 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.12-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.11-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.10-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.9-1xenial) xenial; urgency=high
+
+  * update maintainer
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.8-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.7-1xenial) xenial; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #209 <https://github.com/ipa320/cob_command_tools/issues/209> from ipa-fxm/generic_throttle_private_param
+    use private parameters for generic_throttle
+  * use private parameters for generic_throttle
+  * Merge pull request #197 <https://github.com/ipa320/cob_command_tools/issues/197> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Benjamin Maidel, Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-kinetic-generic-throttle (0.6.6-1xenial) xenial; urgency=high
+
+  * Change resolution factor to be a multiplicative factor and not a division.
+    Handle resize to factor 0 as OpenCV error.
+  * Change misleading resolution with resolution_factor
+  * Add rostopic exec_depend
+  * Remove cv_bridge build dependency
+  * Update manifest and cmake list
+  * Update README.md to resolution throttle.
+  * Implement resolution throttle for sensor_msgs/Image.
+  * Add @ipa-fmw as maintainer.
+  * Add install tags for the executable node
+  * Move throttle_node to script folder. Fix typos in README.
+  * Update README
+  * Rewrite lazy and latched behavior implementation
+  * Adapt to new parameter definition layout. Parameters are now set in the node namespace.
+    Throttled topics have "_throttled" appended to original topic name.
+  * Add ROS node for the throttle separated from the GenericThrottle implementation
+  * Implement lazy behavior. Lazy and Latched behavior are disabled by default
+  * Remove delay feature. Add latched behaviour (True/False).
+  * Remove build dependency on rospy
+  * Remove CMakeLists.txt not needed depedencies.
+  * Change package to format "2" and remove not needed dependencies
+  * Update README
+  * Moving the python package inside src/generic_throttle. Modifying accordingly CMakeLists.txt and package.xml.
+  * remove testing files
+  * introduce directory layer
+  * Contributors: MattiaRacca
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 16 Jul 2017 22:00:00 -0000
+
+
