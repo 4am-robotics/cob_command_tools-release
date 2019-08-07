@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-command-tools
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/cob_command_tools
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-command-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cob-command-gui, ros-melodic-cob-dashboard, ros-melodic-cob-helper-tools, ros-melodic-cob-interactive-teleop, ros-melodic-cob-monitoring, ros-melodic-cob-script-server, ros-melodic-cob-teleop
+Description: The cob_command_tools stack provides tools, for operating Care-O-bot.
