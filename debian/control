@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-command-gui
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://www.ros.org/wiki/cob_command_gui
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-command-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, python-pygraphviz, ros-melodic-cob-msgs, ros-melodic-cob-script-server, ros-melodic-roslib, ros-melodic-rospy
+Description: This package provides a simple GUI for operating Care-O-bot.
