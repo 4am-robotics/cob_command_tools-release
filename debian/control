@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-teleop
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-catkin, ros-melodic-cob-actions, ros-melodic-cob-light, ros-melodic-cob-script-server, ros-melodic-cob-sound, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs
+Homepage: http://www.ros.org/wiki/cob_teleop
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-cob-actions, ros-melodic-cob-light, ros-melodic-cob-script-server, ros-melodic-cob-sound, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs
+Description: Teleop node
