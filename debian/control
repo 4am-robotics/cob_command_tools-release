@@ -1,0 +1,13 @@
+Source: ros-kinetic-scenario-test-tools
+Section: misc
+Priority: optional
+Maintainer: Loy van Beek <lvb@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-sound, ros-kinetic-cob-srvs, ros-kinetic-control-msgs, ros-kinetic-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scenario-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-move-base-msgs, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: The scenario_test_tools package implements helpers for scriptable scenario testing.
+ It allows to set up a test harness for eg. a state machine or other high level behavior by providing mocked implementations for various action servers and services that work together

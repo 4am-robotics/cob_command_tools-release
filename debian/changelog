@@ -1,0 +1,143 @@
+ros-kinetic-scenario-test-tools (0.6.16-1xenial) xenial; urgency=high
+
+  * Merge pull request #277 <https://github.com/ipa320/cob_command_tools/issues/277> from LoyVanBeek/feature/document_move_base
+    Document move base
+  * Sort CMakelist
+  * Document other scripts
+  * Give 'always_succeeding_move_base' a shorter name
+  * Allow to both abort a goal but also send a result with that abort signal
+  * fixup! Add another example for move_base
+  * Document example_move_base further
+  * Add another example for move_base
+  * make publishing transform configurable
+  * get params from private ns
+  * get timeout param
+  * use node name
+  * Catch exceptions when replying to show a better error message
+  * Log how long a eply will wait for a goal
+  * Set default timeout to None, to match the documentation
+  * Put move_base a private namespace
+  * Use the default_reply_delay in other reply-methods as well by default
+  * Make names for reply_delay and 'think' more consistent
+  * Make result_delay an optional parameter
+  * Add more docs for ScriptableActionServer
+  * Add example move base script
+  * Merge pull request #274 <https://github.com/ipa320/cob_command_tools/issues/274> from LoyVanBeek/feature/scenario_test_tools
+    Add new package for scenario test tools
+  * Fix formatting issue, passing too many args to str.format
+  * Make executeables installable
+  * Add license header to relevant files
+  * Add new package for scenario test tools
+  * Contributors: Felix Messmer, Loy van Beek, hyb
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.15-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.14-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Tue, 06 Aug 2019 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.13-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sun, 28 Jul 2019 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.12-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.11-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.10-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.9-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sat, 21 Jul 2018 13:27:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.8-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sat, 21 Jul 2018 12:47:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.7-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.6-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sun, 16 Jul 2017 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.5-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.4-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.3-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.2-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.1-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.6.0-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.5.2-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Wed, 27 Aug 2014 22:00:00 -0000
+
+ros-kinetic-scenario-test-tools (0.5.1-1xenial) xenial; urgency=high
+
+
+
+ -- Loy van Beek <lvb@mojin-robotics.de>  Wed, 26 Mar 2014 23:00:00 -0000
+
+
