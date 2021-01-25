@@ -2,6 +2,28 @@
 Changelog for package cob_script_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.20 (2021-01-25)
+-------------------
+* Merge pull request `#291 <https://github.com/ipa320/cob_command_tools/issues/291>`_ from fmessmer/fix_python3
+  fix python3
+* import itertools.izip as zip for python3-compatibility
+* Contributors: Felix Messmer, fmessmer
+
+0.6.19 (2020-12-02)
+-------------------
+* Merge pull request `#287 <https://github.com/ipa320/cob_command_tools/issues/287>`_ from fmessmer/fix_catkin_lint
+  fix catkin_lint
+* fix catkin_lint
+* Contributors: Felix Messmer, fmessmer
+
+0.6.18 (2020-10-21)
+-------------------
+* Merge pull request `#286 <https://github.com/ipa320/cob_command_tools/issues/286>`_ from fmessmer/fix_noetic
+  fix noetic
+* ROS_PYTHON_VERSION conditional dependency for pygraphviz
+* ROS_PYTHON_VERSION conditional dependency for ipython
+* Contributors: Felix Messmer, fmessmer
+
 0.6.17 (2020-10-17)
 -------------------
 * Merge pull request `#284 <https://github.com/ipa320/cob_command_tools/issues/284>`_ from fmessmer/test_noetic
