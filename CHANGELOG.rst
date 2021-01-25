@@ -2,6 +2,19 @@
 Changelog for package cob_interactive_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.20 (2021-01-25)
+-------------------
+
+0.6.19 (2020-12-02)
+-------------------
+* Merge pull request `#287 <https://github.com/ipa320/cob_command_tools/issues/287>`_ from fmessmer/fix_catkin_lint
+  fix catkin_lint
+* fix catkin_lint
+* Contributors: Felix Messmer, fmessmer
+
+0.6.18 (2020-10-21)
+-------------------
+
 0.6.17 (2020-10-17)
 -------------------
 * Merge pull request `#284 <https://github.com/ipa320/cob_command_tools/issues/284>`_ from fmessmer/test_noetic
