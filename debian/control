@@ -1,0 +1,13 @@
+Source: ros-noetic-scenario-test-tools
+Section: misc
+Priority: optional
+Maintainer: Loy van Beek <lvb@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin, ros-noetic-cob-sound, ros-noetic-cob-srvs, ros-noetic-control-msgs, ros-noetic-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-scenario-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-move-base-msgs, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-tf
+Description: The scenario_test_tools package implements helpers for scriptable scenario testing.
+ It allows to set up a test harness for eg. a state machine or other high level behavior by providing mocked implementations for various action servers and services that work together
