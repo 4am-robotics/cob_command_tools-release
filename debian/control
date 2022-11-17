@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-command-gui
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin
+Homepage: http://www.ros.org/wiki/cob_command_gui
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-command-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-gi, ros-noetic-cob-msgs, ros-noetic-cob-script-server, ros-noetic-roslib, ros-noetic-rospy
+Description: This package provides a simple GUI for operating Care-O-bot.
