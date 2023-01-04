@@ -1,3 +1,37 @@
+## cob_command_tools (noetic) - 0.6.31-1
+
+The packages in the `cob_command_tools` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic cob_command_tools` on `Wed, 04 Jan 2023 11:05:00 -0000`
+
+These packages were released:
+- `cob_command_gui`
+- `cob_command_tools`
+- `cob_dashboard`
+- `cob_helper_tools`
+- `cob_interactive_teleop`
+- `cob_monitoring`
+- `cob_script_server`
+- `cob_teleop`
+- `generic_throttle`
+- `scenario_test_tools`
+- `service_tools`
+
+Version of package(s) in repository `cob_command_tools`:
+
+- upstream repository: https://github.com/ipa320/cob_command_tools.git
+- release repository: https://github.com/ipa320/cob_command_tools-release.git
+- rosdistro version: `0.6.30-2`
+- old version: `0.6.30-2`
+- new version: `0.6.31-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_command_tools (noetic) - 0.6.30-2
 
 The packages in the `cob_command_tools` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_command_tools --rosdistro noetic` on `Thu, 17 Nov 2022 10:01:38 -0000`
