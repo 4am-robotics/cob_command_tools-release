@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-command-tools
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/cob_command_tools
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-command-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cob-command-gui, ros-noetic-cob-dashboard, ros-noetic-cob-helper-tools, ros-noetic-cob-interactive-teleop, ros-noetic-cob-monitoring, ros-noetic-cob-script-server, ros-noetic-cob-teleop
+Description: The cob_command_tools stack provides tools, for operating Care-O-bot.
