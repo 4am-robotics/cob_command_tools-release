@@ -1,3 +1,35 @@
+## cob_command_tools (noetic) - 0.6.35-1
+
+The packages in the `cob_command_tools` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release --ros-distro noetic --edit cob_command_tools` on `Thu, 18 Apr 2024 10:28:52 -0000`
+
+These packages were released:
+- `cob_command_gui`
+- `cob_command_tools`
+- `cob_dashboard`
+- `cob_helper_tools`
+- `cob_monitoring`
+- `cob_script_server`
+- `cob_teleop`
+- `generic_throttle`
+- `scenario_test_tools`
+
+Version of package(s) in repository `cob_command_tools`:
+
+- upstream repository: https://github.com/4am-robotics/cob_command_tools.git
+- release repository: https://github.com/4am-robotics/cob_command_tools-release.git
+- rosdistro version: `0.6.34-1`
+- old version: `0.6.34-1`
+- new version: `0.6.35-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_command_tools (noetic) - 0.6.34-1
 
 The packages in the `cob_command_tools` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic --edit --override-release-repository-url https://github.com/4am-robotics/cob_command_tools-release.git cob_command_tools` on `Sun, 18 Feb 2024 16:23:47 -0000`
