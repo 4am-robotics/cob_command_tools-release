@@ -1,16 +1,12 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package cob_command_tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package service_tools
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.6.35 (2024-04-30)
 -------------------
 
 0.6.34 (2024-02-18)
 -------------------
-* Merge pull request `#341 <https://github.com/4am-robotics/cob_command_tools/issues/341>`_ from fmessmer/feature/optimize_workspace
-  [WIP] optimize workspace
-* remove cob_interactive_teleop
-* Contributors: Felix Messmer, fmessmer
 
 0.6.33 (2023-11-06)
 -------------------
@@ -99,55 +95,12 @@ Changelog for package cob_command_tools
 0.6.7 (2018-01-07)
 ------------------
 * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
-* Merge pull request `#202 <https://github.com/ipa320/cob_command_tools/issues/202>`_ from ipa-fxm/update_maintainer
-  update maintainer
-* update maintainer
 * Merge pull request `#197 <https://github.com/ipa320/cob_command_tools/issues/197>`_ from ipa-fxm/APACHE_license
   use license apache 2.0
 * use license apache 2.0
-* Contributors: Felix Messmer, Richard Bormann, ipa-fxm, ipa-uhr-mk
+* Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
 
 0.6.6 (2017-07-17)
 ------------------
-* add auto_recover to new cob_helper_tools pkg
-* manually fix changelog
-* Contributors: ipa-fxm
-
-0.6.5 (2016-10-10)
-------------------
-
-0.6.4 (2016-04-01)
-------------------
-
-0.6.3 (2015-08-25)
-------------------
-* remove trailing whitespaces
-* migrate to package format 2
-* sort dependencies
-* critically review dependencies
-* Contributors: ipa-fxm
-
-0.6.2 (2015-06-17)
-------------------
-
-0.6.1 (2014-12-15)
-------------------
-* merge
-* rename finished
-* move cob_monitoring
-* missed dependency
-* Contributors: Florian Weisshardt, ipa-nhg
-
-0.6.0 (2014-09-18)
-------------------
-
-0.5.2 (2014-08-28)
-------------------
-* Update package.xml
-* Contributors: Florian Weisshardt
-
-0.5.1 (2014-03-20)
-------------------
-* merged catkin version
-* Initial catkinization.
-* Contributors: abubeck
+* implemented service_relay
+* Contributors: Mathias Lüdtke
