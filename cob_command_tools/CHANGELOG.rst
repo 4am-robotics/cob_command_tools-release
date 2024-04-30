@@ -2,6 +2,9 @@
 Changelog for package cob_command_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.35 (2024-04-30)
+-------------------
+
 0.6.34 (2024-02-18)
 -------------------
 * Merge pull request `#341 <https://github.com/4am-robotics/cob_command_tools/issues/341>`_ from fmessmer/feature/optimize_workspace

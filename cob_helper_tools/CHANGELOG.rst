@@ -2,6 +2,9 @@
 Changelog for package cob_helper_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.35 (2024-04-30)
+-------------------
+
 0.6.34 (2024-02-18)
 -------------------
 * Merge pull request `#336 <https://github.com/4am-robotics/cob_command_tools/issues/336>`_ from HannesBachter/feature/delay_retry
